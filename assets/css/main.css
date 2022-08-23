@@ -3091,22 +3091,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-				#footer .icons {
-					margin: 0 0 1em 0;
-				}
-
-				#footer .copyright {
-					margin: 0 0 1em 0;
-				}
-
-					#footer .copyright li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
-					}
-
 		/* Main */
 
 			#main {
@@ -3223,4 +3207,27 @@ input, select, textarea {
 
 	.button-icon {
 		margin-left: 1rem;
+	}
+
+	@media screen and (max-width: 800px) {
+		.actions {
+			flex-wrap: wrap;
+		}
+		.actions li {
+			width: 50%;
+			margin-bottom: 1rem;
+		}
+		.actions li a {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 520px) {
+		.actions {
+			flex-wrap: wrap;
+		}
+		.actions li {
+			width: 100%;
+			margin-bottom: 1rem;
+		}
 	}
