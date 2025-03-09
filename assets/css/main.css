@@ -2136,6 +2136,7 @@ input, select, textarea {
 			}
 			.image.fit.recentwork img {
 				max-height: 225px;
+				min-height: 225px;
 			}
 
 		.image.avatar {
